@@ -1,8 +1,8 @@
 {
     "name": "bio-dark-theme",
     "displayName": "Bio Dark",
-    "description": "A dark theme from studio.bio",
-    "version": "0.0.1",
+    "description": "A super-cool dark theme for VS Code by studio.bio inspired by Oceanic Next and Solarized Dark. Optimized for JavaScript (React), PHP, HTML, and Sass/SCSS.",
+    "version": "0.0.7",
     "publisher": "studiobio",
     "engines": {
         "vscode": "^1.28.0"
@@ -10,6 +10,26 @@
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joshuaiz/bio-dark-theme"
+    },
+    "keywords": [
+        "Theme",
+        "Dark Theme",
+        "Bio",
+        "Studio Bio",
+        "Oceanic",
+        "Solarized"
+    ],
+    "galleryBanner": {
+        "color": "#1E242E",
+        "theme": "dark"
+    },
+    "scripts": {
+        "publish": "vsce publish"
+    },
+    "icon": "studio_bio_logo.png",
     "contributes": {
         "themes": [
             {
