@@ -1,0 +1,22 @@
+{
+    "name": "bio-dark-theme",
+    "displayName": "Bio Dark",
+    "description": "A dark theme from studio.bio",
+    "version": "0.0.1",
+    "publisher": "studiobio",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bio Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/studio.bio-Bio-Dark-color-theme.json"
+            }
+        ]
+    }
+}
