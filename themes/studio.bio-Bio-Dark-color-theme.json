@@ -450,11 +450,24 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				// "keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#5d82be"
 			}
+        },
+        {
+            "name": "Function, Special Method",
+            "scope": [
+                "entity.name.function.other",
+                // "meta.function-call",
+                // "variable.function",
+                // "support.function",
+                // // "keyword.other.special-method"
+            ],
+            "settings": {
+                "foreground": "#FFA55D"
+            }
         },
         {
             "name": "Special Method",
@@ -709,7 +722,7 @@
 		{
 			"name": "entity.name.method.js",
 			"scope": [
-				"entity.name.method.js"
+				// "entity.name.method.js"
 			],
 			"settings": {
 				"fontStyle": "normal",
@@ -719,14 +732,25 @@
 		{
 			"name": "meta.method.js",
 			"scope": [
-                "meta.class-method.js",
+                // "meta.class-method.js",
                 "entity.name.function.js",
 				"variable.function.constructor"
 			],
 			"settings": {
 				"foreground": "#5d82be"
 			}
-		},
+        },
+        {
+            "name": "meta.method.js",
+            "scope": [
+                "meta.class-method.js",
+                // "entity.name.function.js",
+                // "variable.function.constructor"
+            ],
+            "settings": {
+                "foreground": "#D9984D"
+            }
+        },
 		{
 			"name": "Attributes",
 			"scope": [
