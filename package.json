@@ -1,42 +1,47 @@
 {
-    "name": "bio-dark-theme",
-    "displayName": "Bio Dark",
-    "description": "A super-cool dark theme for VS Code by studio.bio inspired by Oceanic Next and Solarized Dark. Optimized for JavaScript (React), PHP, HTML, and Sass/SCSS.",
-    "version": "0.1.1",
-    "publisher": "studiobio",
-    "engines": {
-        "vscode": "^1.28.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/joshuaiz/bio-dark-theme"
-    },
-    "keywords": [
-        "Theme",
-        "Dark Theme",
-        "Bio",
-        "Studio Bio",
-        "Oceanic",
-        "Solarized"
-    ],
-    "galleryBanner": {
-        "color": "#1E242E",
-        "theme": "dark"
-    },
-    "scripts": {
-        "publish": "vsce publish"
-    },
-    "icon": "studio_bio_logo.png",
-    "contributes": {
-        "themes": [
-            {
-                "label": "Bio Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/studio.bio-Bio-Dark-color-theme.json"
-            }
-        ]
-    }
+	"name": "bio-dark-theme",
+	"displayName": "Bio Dark",
+	"description": "A super-cool dark theme for VS Code by studio.bio inspired by Oceanic Next and Solarized Dark. Optimized for JavaScript (React), PHP, HTML, and Sass/SCSS.",
+	"version": "0.1.2",
+	"publisher": "studiobio",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/joshuaiz/bio-dark-theme"
+	},
+	"keywords": [
+		"Theme",
+		"Dark Theme",
+		"Bio",
+		"Studio Bio",
+		"Oceanic",
+		"Solarized"
+	],
+	"galleryBanner": {
+		"color": "#1E242E",
+		"theme": "dark"
+	},
+	"scripts": {
+		"publish": "vsce publish"
+	},
+	"icon": "studio_bio_logo.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "Bio Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/studio.bio-Bio-Dark-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "e745cc36-f0c9-479d-8b53-72521fccb810",
+		"publisherDisplayName": "studiobio",
+		"publisherId": "5e0e2c6a-99c8-4b25-917a-8734b4ddd2c7"
+	}
 }

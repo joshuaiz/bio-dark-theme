@@ -188,7 +188,6 @@
         "terminal.ansiBrightRed": "#f12a26",
         "terminal.ansiBrightYellow": "#ffdd43",
         "debugToolBar.background": "#111929",
-        "debugToolBar.shadow": "#1E242E",
         "welcomePage.buttonBackground": "#111929",
         "welcomePage.buttonHoverBackground": "#111929",
         "walkThrough.embeddedEditorBackground": "#111929",
