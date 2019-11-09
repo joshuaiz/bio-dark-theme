@@ -523,7 +523,8 @@
             "scope": [
                 "source.scss keyword.other",
                 "source.sass keyword.other",
-                "source.css keyword.other"
+                "source.css keyword.other",
+                "source.pcss keyword.other"
             ],
             "settings": {
                 "foreground": "#7DAFB6"
