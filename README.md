@@ -20,6 +20,8 @@ More emphasis on blues rather than greens as in Oceanic Next and Solarized. Colo
 <br>
 
 ###  🗒 Notes:
+- VSCode version 1.4.3 (February 2020) really borks up syntax highlighting using Bio Dark. I'm working on a fix but until then I recommend not updating VSCode yet if you rely on this theme.
+
 - The code in the screenshots (except for React) is from our WordPress starter theme [Plate](https://github.com/joshuaiz/plate).
 
 - The typeface in the screenshots is SF Mono at 13px.
