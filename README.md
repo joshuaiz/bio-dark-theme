@@ -20,7 +20,11 @@ More emphasis on blues rather than greens as in Oceanic Next and Solarized. Colo
 <br>
 
 ###  🗒 Notes:
-- VSCode version 1.4.3 (February 2020) really borks up syntax highlighting using Bio Dark. I'm working on a fix but until then I recommend not updating VSCode yet if you rely on this theme.
+- For VSCode v 1.4.3, please add this to your settings until Bio Dark can be updated to accommodate the new VSCode semantic highlighting:
+
+"editor.semanticHighlighting.enabled": false,
+
+More information about this issue can be found [here](https://github.com/microsoft/vscode/issues/92308).
 
 - The code in the screenshots (except for React) is from our WordPress starter theme [Plate](https://github.com/joshuaiz/plate).
 
